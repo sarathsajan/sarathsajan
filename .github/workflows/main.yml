@@ -1,7 +1,7 @@
 name: Metrics - Isometric Calender
 on:
   # Schedule updates
-  schedule: [{cron: "*/5 * * * *"}]
+  schedule: [{cron: "* * * * *"}]
   push: {branches: "master"}
 jobs:
   github-metrics:
